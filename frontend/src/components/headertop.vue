@@ -48,10 +48,11 @@ export default {
 }
 
 .nav-link{
-  margin-top: 20px;
+  margin-top: 0px;
+  
 }
 #accueil{
-  margin-left: 200px;
+  margin-left: 580px;
   @media screen and (min-width: 300px) and (max-width: 992px){
     margin-left: 0px;
   }

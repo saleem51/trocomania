@@ -1,17 +1,16 @@
 <template>
   <div class="home">
-  <headertop></headertop>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import headertop from '@/components/headertop.vue'
 
-export default {
-  name: 'Home',
-  components: {
-    headertop
-  }
-}
+// import from '@/components/.vue'
+
+// export default {
+//   name: 'Home',
+//   components: {
+//     
+//   }
+// }
 </script>
