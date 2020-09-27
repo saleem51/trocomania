@@ -1,10 +1,24 @@
 <template>
-  <div class="footer">
-    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-saleemary">
-      <!--<img id="img" src="../assets/header2.png">-->
-      <p class="copy">© Copyright Trocomania 2020</p>
-    </nav>
-  </div> 
+    <div class="footer">
+        <footer class="page-footer font-small pt-4 bg-saleemary">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <!--<div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled">
+                    <li>
+                    <a href="#!">Link 3</a>
+                    </li>
+                    </ul>
+                    </div>-->
+                </div>
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="http://www.salimweb.fr/">Trocomania</a>
+                </div>
+            </div>
+        </footer>
+    </div> 
 </template>
 
 <script>
@@ -16,29 +30,20 @@ export default {
 
 <style lang="scss" scoped>
 
-#nav{
-    display: flex;
-     justify-content: center;
-}
-
-.navbar{
+.footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 50px;
-}
-
-.copy{
     color: #FFF;
-    position: relative;
 }
 
-#link{
-    text-decoration: none;    
+a{
     color: #FFF;
     &:hover{
-        color: yellow;
+        color: red;
     }
 }
+
+
 
 </style>
