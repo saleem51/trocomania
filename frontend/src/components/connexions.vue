@@ -28,6 +28,10 @@ export default {
 
 <style lang="scss" scoped>
 
+.connexion{
+  position: relative;
+  top: 50px;
+}
 
 .form-signin {
   width: 100%;
@@ -86,7 +90,6 @@ input {
 }
 
 .btn{
-  margin-top: 40px;
   margin-bottom: 200px;
 }
 

@@ -1,7 +1,6 @@
 <template>
 <div class="headertop">
   <header>
-  
     <nav class="navbar navbar-expand-lg navbar-dark bg-saleemary">
       <img id="img" src="../assets/header.png">
       <h1>Trocomania</h1>
@@ -16,6 +15,9 @@
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/#/products/">Produits</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/#/annonces/">Déposer une annonce</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/#/signin/">Inscription</a>
@@ -50,6 +52,10 @@ export default {
 
 <style lang="scss" scoped>
 
+.headertop{
+  overflow-x: hidden;
+}
+
 #img{
   width: 5%;
   @media screen and (min-width: 300px) and (max-width: 500px){
@@ -62,8 +68,15 @@ h1{
   position: relative;  
 }
 
-// .navbar{
-//   background-color: pink;
-// }
+.nav-link {
+  &:hover{
+    color: red!important;
+  }
+}
+
+#navbarSupportedContent{
+  left: 35%;
+  position: relative;
+}
 </style>
 
