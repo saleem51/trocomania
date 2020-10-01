@@ -1,16 +1,20 @@
 <template>
   <div class="home">
+    <home></home>
   </div>
 </template>
 
 <script>
 
-// import from '@/components/.vue'
+import home from '@/components/home.vue'
 
-// export default {
-//   name: 'Home',
-//   components: {
-//     
-//   }
-// }
+export default {
+
+  name: 'Home',
+
+  components: {
+    home
+  }
+
+}
 </script>
